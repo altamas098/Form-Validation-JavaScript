@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log-in page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>REGISTRATION FORM</h2>
+      </div>
+      <form class="form" id="form">
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name=""
+            id="username"
+            placeholder="Enter Your FullName"
+            autocomplete="off"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error msg</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name=""
+            id="email"
+            placeholder="Enter an Email"
+            autocomplete="off"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error msg</small>
+        </div>
+
+        <div class="form-control">
+          <label for="phone">Phone Number</label>
+          <input
+            type="number"
+            name=""
+            id="phone"
+            placeholder="Enter a Mobile Number"
+            autocomplete="off"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error msg</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name=""
+            id="password"
+            placeholder="Enter a Password"
+            autocomplete="off"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error msg</small>
+        </div>
+
+        <div class="form-control">
+          <label for="confirm-pass">Confirm Password</label>
+          <input
+            type="password"
+            name=""
+            id="confirm-pass"
+            placeholder="Confirm Your Password"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error msg</small>
+        </div>
+        <input type="submit" value="Submit" class="btn" id="altamas" />
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
